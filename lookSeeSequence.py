@@ -43,5 +43,5 @@ def takeInput() :
 # starter code
 print("How many terms you want to display?")
 userInput = takeInput()
-for i in range(1, userInput + 1):
-    print(lookAndSequence(i))
+for eachTerm in range(1, userInput + 1):
+    print(lookAndSequence(eachTerm))
