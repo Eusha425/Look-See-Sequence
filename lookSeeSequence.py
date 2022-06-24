@@ -4,7 +4,7 @@
 
 def lookAndSequence(term) :
 
-    valid = True
+    valid = True # for each term input validity
     while valid != False:
         # the first two values of the sequence
         if term == 1:
@@ -43,5 +43,6 @@ def takeInput() :
 # starter code
 print("How many terms you want to display?")
 userInput = takeInput()
-for eachTerm in range(1, userInput + 1):
+# displaying the number of terms the user wants to see
+for eachTerm in range(1, userInput + 1): # loop starts from 1 as 0 is an invalid term
     print(lookAndSequence(eachTerm))
